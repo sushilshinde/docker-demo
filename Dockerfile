@@ -1,4 +1,5 @@
-FROM node:8.2.1
+FROM openjdk:8-jre-alpine as installjre
+
 LABEL app="sushil-sample" version="1.0"
 RUN apt-get update
 
